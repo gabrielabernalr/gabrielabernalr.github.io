@@ -1,0 +1,239 @@
+body{
+    background-color: #EFE7D3;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FDD1D2;
+    width: 100%;
+    
+}
+    
+.logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.logotipo{
+    width: 150px;
+    margin-left: 50px;
+}
+
+nav{
+    background-color: #FDD1D2;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(119, 108, 108);
+}
+
+.portada{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin: 10px 0 10px 0;
+    background-color:purple;
+}
+
+.portada img{
+    width: 100%;
+}
+/*--estilos apartodo nosotros*/
+.nosotros{
+    display: block;
+    width: 100%;
+    height: 300px;
+    margin: 10px 0 10px 0;
+    background-color:#D0AB99;
+    text-align: center;
+}
+.nosotros p{
+    font-size: 20px;
+    color: rgb(35, 35, 72);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*---estilos de apartado contenido*/
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #D4BBDD;
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    width: 150px;
+    border-radius: 50%;
+}
+
+.caja p{
+    font-size: 12px;
+}
+/*--estilos apartado contacto*/
+.contacto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #ECE3F0;
+}
+.datos{
+    width: 100%;
+    height: 100%;
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #FDD1D2;
+    text-align: center;
+
+}
+/*----version movil----*/
+@media (max-width: 767px){
+    body{
+        border-color: #D0AB99;
+    }
+
+    header{
+        background-color: #FDD1D2;
+        flex-direction: column;
+    }
+
+    .logo{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .logotipo{
+        width: 250px;
+        height: 70px;
+    }
+    
+    nav{
+        background-color: #FDD1D2;
+    }
+    
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav ul li{
+        list-style:none;
+        margin-right: 20px;
+    }
+    
+    a{
+        text-decoration: none;
+        color: rgb(119, 108, 108);
+    }
+
+    /*contenido*/
+    .contenedor{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 10px 0 10px 0;
+        background-color: #D4BBDD;
+    }
+    
+    .caja{
+        width: 100%;
+        height: 100%;
+        margin: 20px 0px 20px 0px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ECE3F0;
+    }
+    
+    .caja img{
+        width: 150px;
+        border-radius: 50%;
+    }
+    
+    .caja p{
+        font-size: 12px;
+    }
+
+    /*nosotros*/
+    .nosotros{
+        display: block;
+        width: 100%;
+        height: 300px;
+        margin: 10px 0 10px 0;
+        background-color:#D0AB99;
+        text-align: center;
+    }
+    .nosotros p{
+        font-size: 15px;
+        color: rgb(35, 35, 72);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /*contacto*/
+    .contacto{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 10px 0 10px 0;
+        background-color: #ECE3F0;
+    }
+    .datos{
+        width: 100%;
+        height: 100%;
+        margin: 20px 0 20px 0;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+}
